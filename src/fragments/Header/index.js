@@ -84,7 +84,7 @@ export default class Header extends Component {
                       </Link>
                     </li>
                     <li>
-                      <a href='https://github.com/serverless/serverless' className={styles.link}>
+                      <a href='https://github.com/TZM/site' className={styles.link}>
                         GitHub
                       </a>
                     </li>
@@ -111,7 +111,7 @@ export default class Header extends Component {
                       </a>
                     </li>
                     <li>
-                      <a href='https://github.com/serverless/serverless' target='_blank' rel='noopener noreferrer' className={styles.link}>
+                      <a href='https://github.com/TZM/site' target='_blank' rel='noopener noreferrer' className={styles.link}>
                         GitHub
                       </a>
                     </li>

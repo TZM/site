@@ -34,7 +34,7 @@ export default class FeedbackModal extends Component {
           <h3 className={styles.title}>
             In the meantime, Stay up to date with the&nbsp;
             <a
-              href='https://github.com/serverless/serverless'
+              href='https://github.com/TZM/site'
               target='_blank'
               rel='noopener noreferrer'
             >

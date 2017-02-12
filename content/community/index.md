@@ -5,7 +5,7 @@ layout: Community
 
 # Serverless Community
 
-Check out our [help-wanted](https://github.com/serverless/serverless/labels/help-wanted) or [help-wanted-easy](https://github.com/serverless/serverless/labels/help-wanted-easy) labels to find issues we want to move forward on with your help.
+Check out our [help-wanted](https://github.com/TZM/site/labels/help-wanted) or [help-wanted-easy](https://github.com/TZM/site/labels/help-wanted-easy) labels to find issues we want to move forward on with your help.
 
 ## <a name="community"></a>Community
 

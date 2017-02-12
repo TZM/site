@@ -101,18 +101,23 @@ export default class Header extends Component {
                   </span>
                   <ul className={styles.subNavItems}>
                     <li>
-                      <a href='https://gitter.im/serverless/serverless' target='_blank' rel='noopener noreferrer' className={styles.link}>
+                      <a href='https://gitter.im/zmgc' target='_blank' rel='noopener noreferrer' className={styles.link}>
                         Gitter
                       </a>
                     </li>
                     <li>
-                      <a href='http://forum.serverless.com/' target='_blank' rel='noopener noreferrer' className={styles.link}>
+                      <a href='http://forum.zmgc.net/' target='_blank' rel='noopener noreferrer' className={styles.link}>
                         Forum
                       </a>
                     </li>
                     <li>
                       <a href='https://github.com/TZM/site' target='_blank' rel='noopener noreferrer' className={styles.link}>
                         GitHub
+                      </a>
+                    </li>
+                    <li>
+                      <a href='https://trello.com/zmgc' target='_blank' rel='noopener noreferrer' className={styles.link}>
+                        Trello
                       </a>
                     </li>
                     <li>

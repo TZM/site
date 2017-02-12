@@ -42,7 +42,7 @@ export default class PageError extends Component {
   render() {
     const { error, errorText } = this.props
     const tweet = twitterShare(
-      'Hi @zmgc, It looks like this page is missing ☞( ͡° ͜ʖ ͡°)☞', // msg
+      'Hi @ZeitgeistMovement, It looks like this page is missing ☞( ͡° ͜ʖ ͡°)☞', // msg
       (typeof window !== 'undefined') ? window.location.href : 'localhost.com', // url
       ['FYI'] // hashtags
     )

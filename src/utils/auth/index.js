@@ -2,7 +2,7 @@
  * Auth0 Lock instance
  */
 import { initializeXsrfToken, getXsrfToken } from './xsrfToken'
-import LogoImg from '../../assets/images/serverless_logo.png'
+import LogoImg from '../../assets/images/tzm-zmgc-logo.png'
 
 if (!process.env.AUTH0_CLIENT_ID) {
   throw new Error('AUTH_CLIENT_ID is not defined in /src/_config.js file')

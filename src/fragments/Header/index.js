@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import Svg from 'react-svg-inline'
 import handleClickAway from '../../utils/handleClickAway'
 import gitHubSvg from '../../assets/icons/github.svg'
-import Logo from '../../assets/images/serverless_logo.png'
+import Logo from '../../assets/images/tzm-zmgc-logo.png'
 import styles from './Header.css'
 import Auth from '../../components/Auth/Auth'
 

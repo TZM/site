@@ -4,7 +4,7 @@
 import React, { Component, PropTypes } from 'react'
 import axios from 'axios'
 import { getItem } from '../../utils/storage'
-import Logo from '../../assets/images/serverless_logo.png'
+import Logo from '../../assets/images/tzm-zmgc-logo.png'
 import { twitterShare } from '../../utils/social/share'
 import styles from './index.css'
 

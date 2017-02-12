@@ -1,9 +1,9 @@
 {
-  "private": true,
-  "version": "0.0.1",
-  "name": "serverless-site",
-  "homepage": "https://serverless.com",
-  "repository": "https://github.com/serverless/site.git",
+  "private": false,
+  "version": "1.0.0",
+  "name": "zmgc-site",
+  "homepage": "https://zmgc.net",
+  "repository": "https://github.com/TZM/site.git",
   "phenomic": {
     "CNAME": true,
     "offline": false,

@@ -3,7 +3,7 @@
 */
 const path = require('path')
 const projectRoot = path.join(__dirname, '..', '..')
-const repoURL = 'https://github.com/TZM/site'
+const repoURL = 'https://github.com/serverless/serverless'
 // set branch of docs you want to see
 const repoBranch = 'master'
 /* uncomment out the line below to work locally with different docs branch

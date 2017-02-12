@@ -15,7 +15,7 @@ export default class FooterBetaCTA extends Component {
             <div className={styles.ctaBottomRowOne} />
             <div className={styles.ctaBottomRowTwo}>
               <h2 className={styles.ctaBottomCopy}>
-                The Serverless Platform is coming
+                The ZMGC Chapter's Platform is coming
               </h2>
               <Button
                 kind='yellow'

@@ -18,9 +18,9 @@ const Footer = (props) => {
         {cta}
       </div>
       <div className={styles.footerLinks}>
-        <a href={'https://serverless.com'} className={styles.link}>
+        <a href={'https://zmgc.net'} className={styles.link}>
           <span className={styles.reference}>
-            {`Serverless, Inc. © ${year}`}
+            {`Zeitgeist Movement Global Connect ${year}`}
           </span>
         </a>
       </div>

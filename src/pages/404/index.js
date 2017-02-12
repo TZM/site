@@ -42,7 +42,7 @@ export default class PageError extends Component {
   render() {
     const { error, errorText } = this.props
     const tweet = twitterShare(
-      'Hi @goServerless, It looks like this page is missing ☞( ͡° ͜ʖ ͡°)☞', // msg
+      'Hi @zmgc, It looks like this page is missing ☞( ͡° ͜ʖ ͡°)☞', // msg
       (typeof window !== 'undefined') ? window.location.href : 'localhost.com', // url
       ['FYI'] // hashtags
     )
@@ -52,9 +52,9 @@ export default class PageError extends Component {
           It seems you found a broken link. Do not hesitate to report this page!
         </div>
         <div>
-          Tweet at <a target='_blank' rel='noopener noreferrer' href={tweet}>@goServerless</a> or&nbsp;
+          Tweet at <a target='_blank' rel='noopener noreferrer' href={tweet}>@zmgc</a> or&nbsp;
           <a
-            href='https://github.com/serverless/site/issues'
+            href='https://github.com/TZM/site/issues'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -62,16 +62,16 @@ export default class PageError extends Component {
           </a>
         </div>
         <div className={styles.otherLinks}>
-          <a href='/' title='Go to serverless homepage'>
-            Visit homepage
+          <a href='/' title='Go to zmgc homepage'>
+            Zeitgeist Movement Global Connect homepage
           </a>
         </div>
       </div>
     )
     return (
       <div className={styles.container}>
-        <a href='/' title='Go to serverless homepage'>
-          <img alt='Serverless logo' src={Logo} draggable='false' />
+        <a href='/' title='Go to zmgc homepage'>
+          <img alt='Zeitgeist Movement Global Connect' src={Logo} draggable='false' />
         </a>
         <div className={styles.text}>
           <p className={styles.title}>

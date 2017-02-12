@@ -145,7 +145,7 @@ export default class Header extends Component {
                   </li>
                 </Auth>
                 <li className={styles.navItem}>
-                  <a href='https://www.github.com/serverless/serverless' target='_blank' rel='noopener noreferrer' className={styles.link}>
+                  <a href='https://www.github.com/TZM' target='_blank' rel='noopener noreferrer' className={styles.link}>
                     <Svg svg={gitHubSvg} cleanup />
                   </a>
                 </li>

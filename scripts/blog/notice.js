@@ -10,7 +10,7 @@ Notice to anyone working on the blog
 
 Any local edits in this ${config.siteBlogPath} directory will not be saved
 
-These blog markdown files are pulled from ./serverless-blog directory
+These blog markdown files are pulled from ./blog directory
 
 Please make changes to blog posts in ${config.blogRepoPostPath}.
 

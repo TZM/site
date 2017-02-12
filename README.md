@@ -42,7 +42,7 @@ When you start the site with `npm start` it will start watching for file changes
 
 ### **Blog edits:**
 
-To make edits to blog posts, edit the files in `./serverless-blog/posts` (this directory is added on `npm i`)
+To make edits to blog posts, edit the files in `./blog/posts` (this directory is added on `npm i`)
 
 ### **Doc edits:**
 

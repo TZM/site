@@ -16,7 +16,7 @@ if (process.env.IS_NETLIFY_ENV) {
 } else if (cwd.indexOf('node_modules') > -1) {
   console.log('in node_module context, don\'t clone/download extra stuff')
 } else {
-  // in normal project site. check for serverless and serverless-blog folder
+  // in normal project site. check for serverless and blog folder
   console.log(seperator)
   console.log('Installing external content')
   console.log(seperator)
@@ -26,13 +26,13 @@ if (process.env.IS_NETLIFY_ENV) {
   if (!blogExists) {
     // check for git  path.join(blogRepoPath, '.git')
     console.log('No serverless blog repo found. Clone it from github')
-    cloneRepo('git@github.com:serverless/blog.git', blogConfig.repoBranch, 'serverless-blog')
+    cloneRepo('git@github.com:serverless/blog.git', blogConfig.repoBranch, 'blog')
   }
   if (blogExists && !isBlogGitRepo) {
     console.log('Blog folder exists but isnt github repo')
     rimraf(blogRepoPath, () => {
-      console.log('Empty ./serverless-blog directory and clone repo')
-      cloneRepo('git@github.com:serverless/blog.git', blogConfig.repoBranch, 'serverless-blog')
+      console.log('Empty ./blog directory and clone repo')
+      cloneRepo('git@github.com:serverless/blog.git', blogConfig.repoBranch, 'blog')
     })
   } else {
     // console.log(`Local Blog Repo found`)

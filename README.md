@@ -1,23 +1,23 @@
-# [Serverless Site](https://serverless.com/)
+# [ZMGC Site](https://zmgc.net/)
 
 This site is 100% serverless! :tada:
 
 Built using react, redux and [phenomic](https://github.com/MoOx/phenomic) this site is statically built and hosted on the [netlify](https://www.netlify.com/) CDN for 🔥blazingly fast performance and scale.
 
-The [site content](https://github.com/serverless/site/tree/master/content), [docs](https://github.com/serverless/serverless/tree/master/docs), and [blog](https://github.com/serverless/blog) are hosted on github, so if you see a typo or error feel free to contribute back!
+The [site content](https://github.com/TZM/site/tree/master/content), [docs](https://github.com/serverless/tree/master/docs), and [blog](https://github.com/TZM/blog) are hosted on github, so if you see a typo or error feel free to contribute back!
 
-API calls are made with the [serverless framework](https://github.com/serverless/serverless/tree/master/docs) pinging AWS lambda functions. User Authentication is handled via [Auth0](auth0.com). Site search handled by [Algolia](https://community.algolia.com/docsearch/).
+API calls are made with the [serverless framework](https://github.com/serverless/tree/master/docs) pinging AWS lambda functions. User Authentication is handled via [Auth0](auth0.com). Site search handled by [Algolia](https://community.algolia.com/docsearch/).
 
-- [See the site](https://serverless.com/) :point_right: [View the SRC Luke](https://github.com/serverless/site/tree/master/src)
-- [Check out the blog](https://serverless.com/blog) :point_right: [Contribute to the blog](https://github.com/serverless/blog)
-- [Read the docs](https://serverless.com/framework/docs) :point_right: [Contribute to the docs](https://github.com/serverless/serverless)
+- [See the site](https://zmgc.net/) :point_right: [View the SRC Luke](https://github.com/TZM/site/tree/master/src)
+- [Check out the blog](https://zmgc.net/blog) :point_right: [Contribute to the blog](https://github.com/TZM/blog)
+- [Read the docs](https://serverless.com/framework/docs) :point_right: [Contribute to the docs](https://github.com/serverless)
 
 # Quick Start
 
 **1. Clone down the site**
 
 ```bash
-git clone git@github.com:serverless/site.git
+git clone git@github.com:TZM/site.git
 ```
 
 **2. Install site dependencies**
@@ -78,7 +78,7 @@ Successful deploys are published to the [notifications slack channel](https://se
 
 If everything looks good on your unique netlify subdomain, you can go ahead and merge your branch to master on github.
 
-Merging branches into master will trigger a site rebuild and `serverless.com` will be updated.
+Merging branches into master will trigger a site rebuild and `zmgc.net` will be updated.
 
 # Making Phenomic changes while working on the site
 

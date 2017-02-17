@@ -107,6 +107,10 @@ export const makeConfig = (config = {}) => {
           ),
         },
         {
+          test: /\.css$/,
+          include: path.resolve(__dirname, 'node_modules/react-responsive-carousel'),
+          loader: 'style-loader!css-loader'},
+        {
           test: /\.(html|ico|jpe?g|png|gif)$/,
           loader: `${'file-loader' +
             '?name=[path][name].[hash].[ext]&context='}${
@@ -116,6 +120,12 @@ export const makeConfig = (config = {}) => {
           test: /\.svg$/,
           loader: 'raw-loader',
         },
+        {
+        // Support ?123 suffix, e.g. ../fonts/m4d-icons.eot?3179539#iefix in react-responsive-carousel.less
+        test: /\.(eot|ttf|woff|woff2|svg)((\?|\#).*)?$/,
+        include: path.resolve(__dirname, 'node_modules/react-responsive-carousel'),
+        loader: 'url-loader?limit=8192'
+      },
       ],
     },
     // Phenomic options

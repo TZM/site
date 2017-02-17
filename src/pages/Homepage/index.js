@@ -7,6 +7,7 @@ import Default from '../../layouts/Default'
 import Terminal from '../../components/Terminal'
 import ContentBlock from '../../components/ContentBlock'
 import terminalCommands from './terminalCommands'
+// import Slider from '../../components/Slider'
 import styles from './Homepage.css'
 import playSvg from '../../assets/icons/play.svg'
 import docsSvg from '../../assets/icons/book2.svg'
@@ -30,7 +31,6 @@ export default class Homepage extends Component {
             <div className={styles.bg}>
               <div className={styles.hero}>
                 <div className={`${styles.heroLeft} fadeIn fadeInShort`}>
-
                   <div className={styles.heroFramework} />
 
                   <div className={styles.tagline}>

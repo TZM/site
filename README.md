@@ -1,3 +1,4 @@
+<a href="http://www.zmgc.net/" target="_blank"><img src="https://raw.github.com/TZM/tzm-blade/master/public/images/tzm-zmgc-logo-black-bg.png" align="right"></a>
 # [ZMGC Site](https://zmgc.net/)
 
 This site is 100% serverless! :tada:

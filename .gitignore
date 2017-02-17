@@ -25,3 +25,4 @@ secrets.json
 content/framework/docs
 # Blog content gets pulled from https://github.com/serverless/blog
 content/blog
+yarn.lock

@@ -1,6 +1,7 @@
 import React, { PropTypes, Component } from 'react'
 import { Link } from 'react-router'
 import Svg from 'react-svg-inline'
+import Carousel from '../../components/Carousel'
 import Button from '../../components/Button'
 // import Button from '@serverless/components/Button'
 import Default from '../../layouts/Default'
@@ -32,7 +33,7 @@ export default class Homepage extends Component {
                 <div className={`${styles.heroLeft} fadeIn fadeInShort`}>
 
                   <div className={styles.heroFramework} />
-
+                  <Carousel />
                   <div className={styles.tagline}>
                     Build auto-scaling, pay-per-execution, event-driven apps on AWS Lambda
                   </div>

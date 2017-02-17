@@ -2636,6 +2636,11 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/events/streams': [
@@ -2673,6 +2678,11 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/events/s3': [
@@ -2710,6 +2720,11 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/events/schedule': [
@@ -2747,6 +2762,11 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/events/sns': [
@@ -2784,6 +2804,11 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/events/alexa-skill': [
@@ -2821,6 +2846,11 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/events/iot': [
@@ -2858,6 +2888,53 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
+    }
+  ],
+  '/framework/docs/providers/aws/events/cloudwatch-event': [
+    {
+      path: '/framework/docs/providers/aws/events/apigateway',
+      title: 'API Gateway',
+      order: 1
+    },
+    {
+      path: '/framework/docs/providers/aws/events/streams',
+      title: 'Kinesis & DynamoDB',
+      order: 2
+    },
+    {
+      path: '/framework/docs/providers/aws/events/s3',
+      title: 'S3',
+      order: 3
+    },
+    {
+      path: '/framework/docs/providers/aws/events/schedule',
+      title: 'Schedule',
+      order: 4
+    },
+    {
+      path: '/framework/docs/providers/aws/events/sns',
+      title: 'SNS',
+      order: 5
+    },
+    {
+      path: '/framework/docs/providers/aws/events/alexa-skill',
+      title: 'Alexa Skill',
+      order: 6
+    },
+    {
+      path: '/framework/docs/providers/aws/events/iot',
+      title: 'IoT',
+      order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/events': [
@@ -2895,6 +2972,11 @@ module.exports = {
       path: '/framework/docs/providers/aws/events/iot',
       title: 'IoT',
       order: 7
+    },
+    {
+      path: '/framework/docs/providers/aws/events/cloudwatch-event',
+      title: 'CloudWatch Event',
+      order: 8
     }
   ],
   '/framework/docs/providers/aws/examples': [],

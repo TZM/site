@@ -26,13 +26,13 @@ if (process.env.IS_NETLIFY_ENV) {
   if (!blogExists) {
     // check for git  path.join(blogRepoPath, '.git')
     console.log('No serverless blog repo found. Clone it from github')
-    cloneRepo('git@github.com:serverless/blog.git', blogConfig.repoBranch, 'blog')
+    cloneRepo('git@github.com:TZM/blog.git', blogConfig.repoBranch, 'blog')
   }
   if (blogExists && !isBlogGitRepo) {
     console.log('Blog folder exists but isnt github repo')
     rimraf(blogRepoPath, () => {
       console.log('Empty ./blog directory and clone repo')
-      cloneRepo('git@github.com:serverless/blog.git', blogConfig.repoBranch, 'blog')
+      cloneRepo('git@github.com:TZM/blog.git', blogConfig.repoBranch, 'blog')
     })
   } else {
     // console.log(`Local Blog Repo found`)
@@ -45,30 +45,30 @@ if (process.env.IS_NETLIFY_ENV) {
   }
 
   // Handle docs folder
-  const docsExists = fileOrDirExists(docsRepoPath)
-  const docsIsGitRepo = fileOrDirExists(path.join(docsRepoPath, '.git'))
-  if (!docsExists) {
-    // check for git  path.join(blogRepoPath, '.git')
-    console.log('No serverless docs repo found. Clone it from github')
-    console.log(seperator)
-    console.log('NOTE: serverless docs repo is big. Might take a minute to download')
-    cloneRepo('git@github.com:serverless/serverless.git', docsConfig.repoBranch, 'serverless')
-  }
-  if (docsExists && !docsIsGitRepo) {
-    console.log('Docs folder exists but isn\'t github repo')
-    rimraf(docsRepoPath, () => {
-      console.log('Empty ./serverless directory and clone repo')
-      cloneRepo('git@github.com:serverless/serverless.git', docsConfig.repoBranch, 'serverless')
-    })
-  } else {
-    // console.log(`Local Docs Repo found`)
-    // updateRepo(docsRepoPath)
-    // console.log(seperator)
-  }
-  if (docsIsGitRepo) {
-    console.log('Local Docs Repo found')
-    updateRepo(docsRepoPath)
-  }
+  // const docsExists = fileOrDirExists(docsRepoPath)
+  // const docsIsGitRepo = fileOrDirExists(path.join(docsRepoPath, '.git'))
+  // if (!docsExists) {
+  //   // check for git  path.join(blogRepoPath, '.git')
+  //   console.log('No serverless docs repo found. Clone it from github')
+  //   console.log(seperator)
+  //   console.log('NOTE: serverless docs repo is big. Might take a minute to download')
+  //   cloneRepo('git@github.com:serverless/serverless.git', docsConfig.repoBranch, 'serverless')
+  // }
+  // if (docsExists && !docsIsGitRepo) {
+  //   console.log('Docs folder exists but isn\'t github repo')
+  //   rimraf(docsRepoPath, () => {
+  //     console.log('Empty ./serverless directory and clone repo')
+  //     cloneRepo('git@github.com:serverless/serverless.git', docsConfig.repoBranch, 'serverless')
+  //   })
+  // } else {
+  //   // console.log(`Local Docs Repo found`)
+  //   // updateRepo(docsRepoPath)
+  //   // console.log(seperator)
+  // }
+  // if (docsIsGitRepo) {
+  //   console.log('Local Docs Repo found')
+  //   updateRepo(docsRepoPath)
+  // }
 }
 // TODO: replace clone with https://github.com/tunnckoCore/gitclone
 function cloneRepo(repo, branch, path) {
